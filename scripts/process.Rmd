@@ -10,3 +10,44 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 
+```{r}
+SessionInfo()
+getwd()
+```
+```{r}
+setwd("../data")
+lap_times<-read.csv("lap_times.csv")
+results<-read.csv("results.csv")
+driver_standings<-read.csv("driver_standings.csv")
+qualifying<-read.csv("qualifying.csv")
+pit_stops<-read.csv("pit_stops.csv")
+constructor_standings<-read.csv("constructor_standings.csv")
+constructor_results<-read.csv("constructor_results.csv")
+races<-read.csv("races.csv")
+drivers<-read.csv("drivers.csv")
+sprint_results<-read.csv("sprint_results.csv")
+constructors<-read.csv("constructors.csv")
+circuits<-read.csv("circuits.csv")
+seasons<-read.csv("seasons.csv")
+status<-read.csv("status.csv")
+```
+
+
+```{r}
+head(lap_times, n=10)
+head(results, n=10)
+head(driver_standings, n=10)
+head(qualifying, n=10)
+head(pit_stops, n=10)
+head(constructor_standings, n=10)
+head(constructor_results, n=10)
+head(races, n=10)
+head(drivers, n=10)
+head(sprint_results, n=10)
+head(constructors, n=10)
+head(circuits, n=10)
+head(seasons, n=10)
+head(status, n=10)
+```
+
+
